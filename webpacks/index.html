@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.css'/>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+    div.map-wrapper {position: relative;}
+    div#map {widows: 100vw;height: 100vh;}
+  
+    div.input-wrapper{
+      position: absolute;
+      right: 10pt;
+      top: 10pt;
+      z-index: 10000;
+      background-color: rgba(0,0,0,0.7);
+      padding: 8pt 15pt;
+      border: 2pt;
+    }
+    label[for="select-district"] {
+      color: #fff;
+      vertical-align: middle;
+      margin-right: 8pt;
+    }
+  </style>
+</head>
+<body>
+  <div class="map-wrapper">
+    <div id="map"></div>
+    <div class="input-wrapper">
+      <label for="select-district" id="select-district-label">
+        選擇行政區
+      </label>
+      <select name="district" id="select-district">
+        <option value="信義區">信義區</option>
+      </select>
+    </div>
+  </div>
+  <script src="./dist/boudle.js"></script>
+</body>
+</html>

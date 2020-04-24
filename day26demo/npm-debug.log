@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\edwin\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'start' ]
+2 info using npm@3.10.10
+3 info using node@v10.16.3
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle day26demo@1.0.0~prestart: day26demo@1.0.0
+6 silly lifecycle day26demo@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle day26demo@1.0.0~start: day26demo@1.0.0
+8 verbose lifecycle day26demo@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle day26demo@1.0.0~start: PATH: C:\Users\edwin\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;D:\typescript\day26demo\node_modules\.bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\frenkie\bin;C:\Program Files\Python38\Scripts;C:\Program Files\Python38;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\IVI Foundation\VISA\Win64\Bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\Microchip\xc8\v1.35\bin;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn;C:\Fonix\SETimeOutSDK4.2\lib\Win32;C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\TortoiseGit\bin;D:\Program Files (x86)\Brackets\command;C:\Users\edwin\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Users\frenkie\AppData\Roaming\npm;C:\Users\frenkie\AppData\Local\Yarn\bin;C:\Users\frenkie\AppData\Local\GitHubDesktop\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\frenkie\AppData\Local\Programs\Microsoft VS Code\bin
+10 verbose lifecycle day26demo@1.0.0~start: CWD: D:\typescript\day26demo
+11 silly lifecycle day26demo@1.0.0~start: Args: [ '/d /s /c', 'concurrently npm:start:*' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at process.kill (internal/process/per_thread.js:198:13)
+12 verbose stack     at process.listener (C:\Users\edwin\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at process.emit (events.js:203:15)
+13 verbose cwd D:\typescript\day26demo
+14 error Windows_NT 6.1.7601
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\edwin\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "start"
+16 error node v10.16.3
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]

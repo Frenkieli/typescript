@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+
+
+  <button id="main-btn">Click Me!</button>
+
+  <p>You've clicked <span id="count">0</span> times! </p>
+  <script src="require.js"></script>
+  
+  
+  
+  
+  
+  
+  <!-- <script
+  src="https://code.jquery.com/jquery-3.5.0.min.js"
+  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+  crossorigin="anonymous"></script> -->
+
+  <script src="./index.js"></script>
+
+
+  <script>
+    requirejs.config({
+      paths: {
+        'jquery': './node_modules/jquery/dist/jquery.min'
+      }
+    })
+
+    require(['index']);
+  </script>
+</body>
+</html>
